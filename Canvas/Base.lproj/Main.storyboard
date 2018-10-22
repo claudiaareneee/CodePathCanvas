@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" restorationIdentifier="tray" translatesAutoresizingMaskIntoConstraints="NO" id="99k-Za-3E2">
+                            <view contentMode="scaleToFill" restorationIdentifier="tray" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="99k-Za-3E2">
                                 <rect key="frame" x="0.0" y="474" width="375" height="193"/>
                                 <subviews>
                                     <imageView multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dead" translatesAutoresizingMaskIntoConstraints="NO" id="dRc-WY-j39">
@@ -93,10 +93,10 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="99k-Za-3E2" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="USJ-Mz-g7y"/>
+                            <constraint firstItem="99k-Za-3E2" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="USJ-Mz-g7y"/>
                             <constraint firstItem="99k-Za-3E2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="474" id="ZBZ-Kh-PEi"/>
-                            <constraint firstItem="99k-Za-3E2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="luc-2s-V0G"/>
-                            <constraint firstItem="99k-Za-3E2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="su0-0F-f1c"/>
+                            <constraint firstItem="99k-Za-3E2" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="luc-2s-V0G"/>
+                            <constraint firstItem="99k-Za-3E2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="su0-0F-f1c"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
